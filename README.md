@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python API Homework - What's the Weather Like?
 
 ## Background
@@ -121,3 +122,8 @@ As final considerations:
 
 Trilogy Education Services © 2019. All Rights Reserved.
 
+=======
+# Python-API-Challenge
+Creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. 
+![](Images/equatorsign.png)
+>>>>>>> 1c9d702f5707a8ad4e429296ef30a318a1c729c2
