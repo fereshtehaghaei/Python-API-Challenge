@@ -4,7 +4,20 @@
 
 Now, we know what you may be thinking: _"Duh. It gets hotter..."
 
-Creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. 
+Creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized [simple Python library](https://pypi.python.org/pypi/citipy) and [OpenWeatherMap API](https://openweathermap.org/api)
+
+To see my Python script, check jupyter notebook [here](https://github.com/fereshtehaghaei/Python-API-Challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+
+
+
+## Observation
+
+- Southern Hemisphere climates tend to be slightly milder than those at similar latitudes in the Northern Hemisphere. This is because the Southern Hemisphere has significantly more ocean and much less land; water heats up and cools down more slowly than land.
+- Highest temperature is found at 0 latitude and as the latitude increases or decreases, temperature drops. This happens as equatorial region receives sunlight straight with less or no angle due to curvature shape of earth.
+- "Latitude doesn't have a strong influence on wind speed. The speed of the wind is controlled by the strength of the air pressure gradient, the stronger the pressure gradient the higher the wind speed. 
+
+
+
 ![](Images/equatorsign.png)
 
 ## Generate Cities List
