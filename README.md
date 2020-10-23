@@ -8,6 +8,8 @@ Creating a Python script to visualize the weather of 500+ cities across the worl
 
 To see my Python script, check jupyter notebook [here](https://github.com/fereshtehaghaei/Python-API-Challenge/blob/master/WeatherPy/WeatherPy.ipynb)
 
+# Part I - WeatherPy
+
 
 
 ## Observation
@@ -317,3 +319,36 @@ The correlation between Latitude and Wind Speed(mph) in Northern Hemisphere is 0
 The r-value is: 0.13204377443082696
 The correlation between Latitude and Wind Speed(mph) in Southern Hemisphere is -0.36
 ```
+
+# Part II - VacationPy
+
+I used jupyter-gmaps and the Google Places API and used my skills in working with weather data to plan future vacations. 
+
+### Plotting Heatmap
+
+- Create a heat map that displays the humidity for every city from the part I of the project.
+
+  ![](Images/Heat_Map.png)
+
+- Narrow down the DataFrame to find my ideal weather condition. For example:
+
+  - A max temperature lower than 80(°F) degrees but higher than 70(°F). For this section, I used metric measurement so my max temp lower than 26.66(°C) but higher than 21.1(°C)
+  - Wind speed less than 10 mph.
+  - Zero cloudiness.
+  - Drop any rows that don't contain all three conditions.
+
+  ### Hotel Map
+
+  - Store into variable named `hotel_df`.
+  - Add a "Hotel Name" column to the DataFrame.
+
+  ![](Images/hotel_map.png)
+
+  
+
+  ## To run the code:
+
+  - Install citypy in your python environment (https://pypi.python.org/pypi/citipy)
+  - Save OpenWeatherMap API Key (https://openweathermap.org/) as 'weather_api_key'
+  - Google API Key (https://console.developers.google.com/getting-started) as 'g_key'
+  - Create API Keys and store it in the 'api_keys.py' file before running the Jupyter notebooks.
