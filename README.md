@@ -8,8 +8,6 @@ Creating a Python script to visualize the weather of 500+ cities across the worl
 
 To see my Python script, check jupyter notebook [here](https://github.com/fereshtehaghaei/Python-API-Challenge/blob/master/WeatherPy/WeatherPy.ipynb)
 
-# Part I - WeatherPy
-
 
 
 ## Observation
@@ -22,7 +20,9 @@ To see my Python script, check jupyter notebook [here](https://github.com/feresh
 
 ![](Images/equatorsign.png)
 
-#  WeatherPy
+
+
+#  Part I - WeatherPy
 
 ------
 
@@ -320,6 +320,8 @@ The r-value is: 0.13204377443082696
 The correlation between Latitude and Wind Speed(mph) in Southern Hemisphere is -0.36
 ```
 
+
+
 # Part II - VacationPy
 
 I used jupyter-gmaps and the Google Places API and used my skills in working with weather data to plan future vacations. 
@@ -340,7 +342,21 @@ I used jupyter-gmaps and the Google Places API and used my skills in working wit
   ### Hotel Map
 
   - Store into variable named `hotel_df`.
+
   - Add a "Hotel Name" column to the DataFrame.
+
+  - |      |            City | Country |    Lat |     Lng | Hotel Name                        |
+    | ---: | --------------: | ------: | -----: | ------: | --------------------------------- |
+    |    1 |         Rikitea |      PF | -23.12 | -134.97 | Pension Maro'i                    |
+    |   21 |       Hong Kong |      HK |  22.29 |  114.16 | The Harbourview                   |
+    |   43 |         Yorosso |      ML |  12.35 |   -4.78 |                                   |
+    |  179 |           Ţahţā |      EG |  26.77 |   31.50 | El Salam Hotel                    |
+    |  184 |     Tambacounda |      SN |  13.75 |  -13.76 |                                   |
+    |  212 |     Mitsamiouli |      KM | -11.38 |   43.28 | Al Camar Lodge                    |
+    |  278 |           Aswān |      EG |  24.09 |   32.91 | Sofitel Legend Old Cataract Aswan |
+    |  341 |  Cap Malheureux |      MU | -19.98 |   57.61 | Paradise Cove Boutique Hotel      |
+    |  380 |         Longhua |      CN |  23.61 |  114.19 |                                   |
+    |  434 | Bandar-e Lengeh |      IR |  26.56 |   54.88 | Diplomat Hotel                    |
 
   ![](Images/hotel_map.png)
 
